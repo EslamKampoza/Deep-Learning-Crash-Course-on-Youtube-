@@ -1,0 +1,26 @@
+name: DL
+channels:
+- defaults
+- michael_wild
+dependencies:
+- python=3.7.*
+- bz2file
+- cython
+- pip
+- numpy
+- jupyter
+- matplotlib
+- setuptools
+- scikit-learn
+- scipy
+- pandas
+- pillow
+- seaborn
+- h5py
+- pytest
+- twisted
+- tensorflow
+- pip:
+  - keras
+  - opencv-contrib-python
+
